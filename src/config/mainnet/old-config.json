@@ -1,163 +1,32 @@
 {
     "general": {
-        "title": "SwitchDex",
-        "icon": "assets/icons/esh.svg",
+        "title": "SwapDex",
+        "icon": "assets/img/logo.png",
         "social": {
-            "telegram_url": "https://t.me/ethershiftco",
-            "twitter_url": "https://twitter.com/SwitchAg",
-            "github_url": "https://github.com/SwitchOS/switchdex"
+            "telegram_url": "https://t.me/swapdex",
+            "twitter_url": "https://twitter.com/swapdexProject",
+            "facebook_url": "https://www.facebook.com/swapdex.io/",
+            "discord_url": "https://discord.gg/cGMJemv",
+            "reddit_url": "https://reddit.com/r/swapdex",
+            "bitcointalk_url": "https://bitcointalk.org/index.php?topic=5140352",
+            "statedapps_url": "https://www.stateofthedapps.com/dapps/veridex"
         }
     },
     "tokens": [
         {
-            "decimals": 4,
-            "symbol": "alex",
-            "name": "Alex",
+            "decimals": 7,
+            "symbol": "sdx",
+            "name": "SwapDex",
             "primaryColor": "#081e6e",
-            "icon": "assets/icons/alex.svg",
+            "icon": "assets/icons/sdx.svg",
             "addresses": {
-                "1": "0x8BA6DcC667d3FF64C1A2123cE72FF5F0199E5315",
-                "3": "0xba3a79d758f19efe588247388754b8e4d6edda81",
-                "42": "0xBA3a79D758f19eFe588247388754b8e4d6EddA81"
+                "1": "0x041fdd6637eCfD96af8804278AC12660ac2D12c0"
             },
-            "id": "alex",
-            "unified_cryptoasset_id": 3365,
-            "displayDecimals": 2,
-            "description": "“Control My Life”: use my cryptocurrency $ALEX to vote on my life choices",
-            "website": "https://medium.com/@AlexMasmej/introducing-control-my-life-use-my-cryptocurrency-alex-to-vote-on-my-life-choices-8d62471963cd",
-            "c_id": "alex",
-            "isStableCoin": false
-        },
-        {
-            "decimals": 18,
-            "symbol": "esh",
-            "name": "Switch",
-            "primaryColor": "#081e6e",
-            "icon": "assets/icons/esh.svg",
-            "addresses": {
-                "1": "0xd6a55c63865affd67e2fb9f284f87b7a9e5ff3bd",
-                "3": "0xba3a79d758f19efe588247388754b8e4d6edda81",
-                "42": "0xBA3a79D758f19eFe588247388754b8e4d6EddA81"
-            },
-            "id": "switch",
-            "unified_cryptoasset_id": 3365,
-            "displayDecimals": 2,
-            "description": "Switch give users the ability to seamlessly 'switch' between other assets, buy gift cards, donate to non-profits, and gamble.",
-            "website": "https://switch.ag/",
-            "c_id": "switch",
-            "isStableCoin": false
-        },
-        {
-            "decimals": 18,
-            "symbol": "ghost",
-            "name": "Ghost",
-            "primaryColor": "#081e6e",
-            "icon": "assets/icons/ghost.svg",
-            "addresses": {
-                "1": "0x4c327471c44b2dacd6e90525f9d629bd2e4f662c",
-                "3": "0xba3a79d758f19efe588247388754b8e4d6edda81",
-                "42": "0xBA3a79D758f19eFe588247388754b8e4d6EddA81"
-            },
-            "id": "ghost",
-            "unified_cryptoasset_id": 3365,
-            "displayDecimals": 2,
-            "description": "GHOST is a proof of stake privacy coin to help make you nothing but a 'ghost' when transacting online!",
-            "website": "https://www.ghostbymcafee.com/",
-            "c_id": "ghost-by-mcafee",
-            "isStableCoin": false
-        },
-        {
-            "decimals": 18,
-            "symbol": "sdex",
-            "name": "SDex",
-            "primaryColor": "#081e6e",
-            "icon": "assets/icons/esh.svg",
-            "addresses": {
-                "1": "0x77678cfd0f2b55152adc6599db9f988ab28d72f2",
-                "3": "0xba3a79d758f19efe588247388754b8e4d6edda81",
-                "42": "0xBA3a79D758f19eFe588247388754b8e4d6EddA81"
-            },
-            "id": "sdex",
-            "unified_cryptoasset_id": 3365,
-            "displayDecimals": 8,
-            "description": "Sdex gives 50 % collected fees on switchdex to users",
-            "website": "https://switch.ag/",
-            "c_id": "sdex",
-            "isStableCoin": false
-        },
-
-        {
-            "decimals": 18,
-            "symbol": "desh",
-            "name": "Desh",
-            "primaryColor": "#081e6e",
-            "icon": "assets/icons/esh.svg",
-            "addresses": {
-                "1": "0x28f2c01a3d86ee4faf037147f0aeb49c2eab47ce",
-                "3": "0xba3a79d758f19efe588247388754b8e4d6edda81",
-                "42": "0xBA3a79D758f19eFe588247388754b8e4d6EddA81"
-            },
-            "id": "desh",
-            "unified_cryptoasset_id": 3365,
-            "displayDecimals": 8,
-            "description": "Desh gives 50 % collected fees on switch aggregator to users",
-            "website": "https://switch.ag/",
-            "c_id": "desh",
-            "isStableCoin": false
-        },
-        {
-            "decimals": 18,
-            "symbol": "whackd",
-            "name": "Whackd",
-            "primaryColor": "#081e6e",
-            "icon": "assets/icons/whackd.svg",
-            "addresses": {
-                "1": "0xcf8335727b776d190f9d15a54e6b9b9348439eee",
-                "3": "0xba3a79d758f19efe588247388754b8e4d6edda81",
-                "42": "0xBA3a79D758f19eFe588247388754b8e4d6EddA81"
-            },
-            "id": "whackd",
-            "unified_cryptoasset_id": 3365,
+            "id": "swapdex",
+            "c_id": "swapdex",
             "displayDecimals": 0,
-            "description": "Whacked",
-            "website": "https://whackdtoken.com//",
-            "c_id": "whackd",
-            "isStableCoin": false
-        },
-        {
-            "decimals": 4,
-            "symbol": "alex",
-            "name": "Alex",
-            "primaryColor": "#081e6e",
-            "icon": "assets/icons/alex.svg",
-            "addresses": {
-                "1": "0x8BA6DcC667d3FF64C1A2123cE72FF5F0199E5315",
-                "3": "0xba3a79d758f19efe588247388754b8e4d6edda81",
-                "42": "0xBA3a79D758f19eFe588247388754b8e4d6EddA81"
-            },
-            "id": "alex",
-            "unified_cryptoasset_id": 3365,
-            "displayDecimals": 2,
-            "description": "“Control My Life”: use my cryptocurrency $ALEX to vote on my life choices",
-            "website": "https://medium.com/@AlexMasmej/introducing-control-my-life-use-my-cryptocurrency-alex-to-vote-on-my-life-choices-8d62471963cd",
-            "c_id": "alex",
-            "isStableCoin": false
-        },
-        {
-            "decimals": 8,
-            "symbol": "0xbtc",
-            "name": "0xBitcoin",
-            "primaryColor": "#ff7423",
-            "icon": "assets/icons/zxb.svg",
-            "addresses": {
-                "1": "0xb6ed7644c69416d67b522e20bc294a9a9b405b31"
-            },
-            "displayDecimals": 2,
-            "id": "0xbtc",
-            "unified_cryptoasset_id": 2837,
-            "c_id": "oxbitcoin",
-            "description": "Pure Mined Currency For Ethereum Applications",
-            "website": "https://0xbitcoin.org",
+            "description": "The transparent ecosystem that crypto needs!",
+            "website": "https://www.swapdex.net",
             "isStableCoin": false
         },
         {
@@ -176,26 +45,8 @@
             "displayDecimals": 3,
             "id": "ethereum",
             "c_id": "ethereum",
-            "unified_cryptoasset_id": 2396,
             "website": "https://weth.io",
             "description": "wETH is 'wrapped ETH'",
-            "isStableCoin": false
-        },
-        {
-            "decimals": 8,
-            "symbol": "wbtc",
-            "name": "Wrapped BTC",
-            "primaryColor": "#282138",
-            "icon": "assets/icons/wbtc.svg",
-            "addresses": {
-                "1": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
-            },
-            "displayDecimals": 8,
-            "unified_cryptoasset_id": 3717,
-            "website": "https://www.wbtc.network/",
-            "c_id": "wrapped-bitcoin",
-            "description": "Wrapped Bitcoin delivers the power of Bitcoin with the flexibility of an ERC20 token.",
-            "id": "wrapped-bitcoin",
             "isStableCoin": false
         },
         {
@@ -203,7 +54,6 @@
             "name": "0x Protocol Token",
             "primaryColor": "#333333",
             "icon": "assets/icons/zrx.svg",
-            "unified_cryptoasset_id": 1896,
             "addresses": {
                 "1": "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
                 "3": "0xff67881f8d12f372d91baae9752eb3631ff0ed00",
@@ -214,9 +64,26 @@
             },
             "decimals": 18,
             "displayDecimals": 2,
+            "c_id": "0x",
             "website": "https://0x.org",
             "description": "0x is an open protocol that enables the peer-to-peer exchange of assets on the Ethereum blockchain.",
-            "c_id": "0x",
+            "isStableCoin": false
+        },
+        {
+            "decimals": 9,
+            "symbol": "dgx",
+            "name": "DigixDao",
+            "icon": "assets/icons/dgx.svg",
+            "primaryColor": "#E1AA3E",
+            "addresses": {
+                "1": "0xE0B7927c4aF23765Cb51314A0E0521A9645F0E2A",
+                "3": "0xc4895a5aafa2708d6bc1294e20ec839aad156b1d",
+                "4": "0xc40a46ca4bc8e6057ed571e39cf400f3f935e4d5",
+                "42": "0xA4f468c9c692eb6B4b8b06270dAe7A2CfeedcDe9",
+                "50": "0xcdb594a32b1cc3479d8746279712c39d18a07fc0"
+            },
+            "c_id": "digixdao",
+            "website": "https://digix.global/dgd/",
             "isStableCoin": false
         },
         {
@@ -224,11 +91,10 @@
             "symbol": "dai",
             "name": "Dai",
             "icon": "assets/icons/dai.svg",
-            "unified_cryptoasset_id": 2308,
             "primaryColor": "#DEA349",
             "addresses": {
-                "1": "0x6b175474e89094c44da98b954eedeac495271d0f",
-                "3": "0xfc8862446cd3e4a2e7167e7d97df738407fead07",
+                "1": "0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359",
+                "3": "0xf80a32a835f79d7787e8a8ee5721d0feafd78108",
                 "4": "0x6f2d6ff85efca691aad23d549771160a12f0a0fc",
                 "42": "0xc4375b7de8af5a38a93548eb8453a498222c4ff2",
                 "50": ""
@@ -236,8 +102,24 @@
             "website": "https://makerdao.com/en/dai/",
             "description": "Dai is an asset-backed, hard currency for the 21st century.",
             "c_id": "dai",
-            "displayDecimals": 2,
             "isStableCoin": true
+        },
+        {
+            "decimals": 8,
+            "symbol": "wbtc",
+            "name": "Wrapped BTC",
+            "primaryColor": "#282138",
+            "icon": "assets/icons/wbtc.svg",
+            "addresses": {
+                "1": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
+                "3": "0xa0e54ab6aa5f0bf1d62ec3526436f3c05b3348a0"
+            },
+            "displayDecimals": 8,
+            "unified_cryptoasset_id": 3717,
+            "website": "https://www.wbtc.network/",
+            "c_id": "wrapped-bitcoin",
+            "description": "Wrapped Bitcoin delivers the power of Bitcoin with the flexibility of an ERC20 token.",
+            "id": "wrapped-bitcoin"
         },
         {
             "decimals": 6,
@@ -248,13 +130,13 @@
             "primaryColor": "#9fc2e7",
             "unified_cryptoasset_id": 3408,
             "addresses": {
-                "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+                "1": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+                "3": "0x851def71f0e6a903375c1e536bd9ff1684bad802"
             },
             "id": "usd-coin",
             "website": "https://www.centre.io/",
             "description": "Connecting every person, every merchant, every financial service, every currency. Everywhere.",
-            "c_id": "usd-coin",
-            "isStableCoin": true
+            "c_id": "usd-coin"
         },
         {
             "decimals": 18,
@@ -265,34 +147,13 @@
             "unified_cryptoasset_id": 1697,
             "primaryColor": "#9e1f63",
             "addresses": {
-                "1": "0x0d8775f648430679a709e98d2b0cb6250d2887ef"
+                "1": "0x0d8775f648430679a709e98d2b0cb6250d2887ef",
+                "3": "0x85b24b3517e3ac7bf72a14516160541a60cff19d"
             },
             "id": "basic-attention-token",
             "website": "https://basicattentiontoken.org/",
             "description": "INTRODUCING BLOCKCHAIN-BASED DIGITAL ADVERTISING",
-            "c_id": "basic-attention-token",
-            "isStableCoin": false
-        },
-        {
-            "decimals": 18,
-            "displayDecimals": 2,
-            "symbol": "mkr",
-            "name": "Maker",
-            "primaryColor": "#68CCBB",
-            "unified_cryptoasset_id": 1518,
-            "icon": "assets/icons/mkr.svg",
-            "addresses": {
-                "1": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
-                "3": "0x06732516acd125b6e83c127752ed5f027e1b276e",
-                "4": "0xb763e26cd6dd09d16f52dc3c60ebb77e46b03290",
-                "42": "0x7B6B10CAa9E8E9552bA72638eA5b47c25afea1f3",
-                "50": "0x34d402f14d58e001d8efbe6585051bf9706aa064"
-            },
-            "website": "https://makerdao.com/",
-            "c_id": "maker",
-            "description": "Maker is comprised of a decentralized stablecoin, collateral loans, and community governance.",
-            "id": "maker",
-            "isStableCoin": false
+            "c_id": "basic-attention-token"
         },
         {
             "decimals": 18,
@@ -302,14 +163,14 @@
             "icon": "assets/icons/link.svg",
             "unified_cryptoasset_id": 1975,
             "addresses": {
-                "1": "0x514910771af9ca656af840dff83e8264ecf986ca"
+                "1": "0x514910771af9ca656af840dff83e8264ecf986ca",
+                "3": "0x1a906e71ff9e28d8e01460639eb8cf0a6f0e2486"
             },
-            "displayDecimals": 2,
+            "displayDecimals": 0,
             "website": "https://chain.link/",
             "c_id": "chainlink",
             "description": "Your smart contracts connected to real world data, events and payments.",
-            "id": "chainlink",
-            "isStableCoin": false
+            "id": "chainlink"
         },
         {
             "decimals": 6,
@@ -319,99 +180,14 @@
             "icon": "assets/icons/usdt.svg",
             "unified_cryptoasset_id": 825,
             "addresses": {
-                "1": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+                "1": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+                "3": "0xb404c51bbc10dcbe948077f18a4b8e553d160084"
             },
             "displayDecimals": 3,
             "website": "https://tether.to/",
             "c_id": "tether",
             "description": "Digital money for a digital age",
-            "id": "tether",
-            "isStableCoin": true
-        },
-        {
-            "decimals": 18,
-            "symbol": "busd",
-            "name": "BinanceUSD",
-            "primaryColor": "#f0b90b",
-            "icon": "assets/icons/busd.svg",
-            "unified_cryptoasset_id": 5000,
-            "addresses": {
-                "1": "0x4fabb145d64652a948d72533023f6e7a623c7c53"
-            },
-            "displayDecimals": 3,
-            "website": "http://www.paxos.com/busd",
-            "c_id": "busd",
-            "description": "A new stablecoin, issued in partnership with Binance",
-            "id": "busd",
-            "isStableCoin": true
-        },
-        {
-            "decimals": 18,
-            "symbol": "lend",
-            "name": "ETHlend",
-            "primaryColor": "#f0b90b",
-            "icon": "assets/icons/lend.svg",
-            "unified_cryptoasset_id": 5000,
-            "addresses": {
-                "1": "0x80fB784B7eD66730e8b1DBd9820aFD29931aab03"
-            },
-            "displayDecimals": 3,
-            "website": "https://aave.com/",
-            "c_id": "aave",
-            "description": "Aave is an Open Source and Non-Custodial protocol to earn interest on deposits & borrow assets.",
-            "id": "aave",
-            "isStableCoin": false
-        },
-        {
-            "decimals": 18,
-            "symbol": "susd",
-            "name": "Synth sUsd",
-            "primaryColor": "#f0b90b",
-            "icon": "assets/icons/susd.svg",
-            "unified_cryptoasset_id": 5005,
-            "addresses": {
-                "1": "0x57ab1ec28d129707052df4df418d58a2d46d5f51"
-            },
-            "displayDecimals": 3,
-            "website": "https://www.synthetix.io/",
-            "c_id": "susd",
-            "description": "A protocol for trading synthetic assets on Ethereum",
-            "id": "susd",
-            "isStableCoin": true
-        },
-        {
-            "decimals": 18,
-            "symbol": "mana",
-            "name": "Decentraland",
-            "primaryColor": "#f0b90b",
-            "icon": "assets/icons/mana.svg",
-            "unified_cryptoasset_id": 5005,
-            "addresses": {
-                "1": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942"
-            },
-            "displayDecimals": 3,
-            "website": "https://decentraland.org/",
-            "c_id": "decentraland",
-            "description": "Choose your Avatar to enter Decentraland, Your passport to the Metaverse",
-            "id": "decentraland",
-            "isStableCoin": false
-        },
-        {
-            "decimals": 18,
-            "symbol": "snx",
-            "name": "Synthetix",
-            "primaryColor": "#f0b90b",
-            "icon": "assets/icons/snx.svg",
-            "unified_cryptoasset_id": 5005,
-            "addresses": {
-                "1": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f"
-            },
-            "displayDecimals": 3,
-            "website": "https://www.synthetix.io/",
-            "c_id": "synthetix-network-token",
-            "description": "A protocol for trading synthetic assets on Ethereum",
-            "id": "synthetix-network-token",
-            "isStableCoin": false
+            "id": "tether"
         },
         {
             "decimals": 18,
@@ -421,14 +197,14 @@
             "icon": "assets/icons/rep.svg",
             "unified_cryptoasset_id": 1104,
             "addresses": {
-                "1": "0x1985365e9f78359a9B6AD760e32412f4a445E862"
+                "1": "0x1985365e9f78359a9B6AD760e32412f4a445E862",
+                "3": "0xbeb13523503d35f9b3708ca577cdccadbfb236bd"
             },
             "displayDecimals": 3,
             "website": "https://www.augur.net/",
             "c_id": "augur",
             "description": "Markets for Anyone Anywhere on Anything.",
-            "id": "augur",
-            "isStableCoin": false
+            "id": "augur"
         },
         {
             "decimals": 18,
@@ -438,14 +214,14 @@
             "unified_cryptoasset_id": 1982,
             "icon": "assets/icons/knc.svg",
             "addresses": {
-                "1": "0xdd974d5c2e2928dea5f71b9825b8b646686bd200"
+                "1": "0xdd974d5c2e2928dea5f71b9825b8b646686bd200",
+                "3": "0xce4aa1de3091033ba74fa2ad951f6adc5e5cf361"
             },
-            "displayDecimals": 2,
+            "displayDecimals": 0,
             "website": "https://kyber.network/",
             "c_id": "kyber-network",
             "description": "Kyber is an on-chain liquidity protocol that aggregates liquidity from a wide range of reserves,<br /> powering instant and secure token exchange in any decentralized application.",
-            "id": "kyber-network",
-            "isStableCoin": false
+            "id": "kyber-network"
         },
         {
             "decimals": 18,
@@ -455,213 +231,224 @@
             "unified_cryptoasset_id": 2563,
             "icon": "assets/icons/tusd.svg",
             "addresses": {
-                "1": "0x0000000000085d4780B73119b644AE5ecd22b376"
+                "1": "0x0000000000085d4780B73119b644AE5ecd22b376",
+                "3": "0xa51ee1845c13cb03fca998304b00ecc407fc1f92"
             },
             "displayDecimals": 6,
             "website": "https://www.trusttoken.com/trueusd",
             "c_id": "true-usd",
             "description": "The first regulated stablecoin fully backed by the US Dollar.",
-            "id": "true-usd",
-            "isStableCoin": true
+            "id": "true-usd"
         },
         {
-            "decimals": 2,
-            "symbol": "gusd",
-            "name": "Gemini dollar",
-            "primaryColor": "#fe2e57",
-            "unified_cryptoasset_id": 3306,
-            "icon": "assets/icons/gusd.svg",
+            "decimals": 8,
+            "symbol": "befx",
+            "name": "Belifex",
+            "icon": "https://belifex.com/assets/befx.png",
+            "primaryColor": "#2C80BE",
             "addresses": {
-                "1": "0x056fd409e1d7a124bd7017459dfea2f387b6d5cd"
+                "1": "0xB91C2a2b953D72f3EF890490669a0A41B0ADD5f7"
             },
-            "displayDecimals": 2,
-            "c_id": "gemini-dollar",
-            "website": "https://gemini.com/dollar",
-            "description": "The world’s first regulated stablecoin, designed for high scale and usability in all kinds of transactions.The world’s first regulated stablecoin, designed for high scale and usability in all kinds of transactions.",
-            "isStableCoin": true
+            "c_id": "befx",
+            "website": "https://belifex.com"
         }
     ],
     "pairs": [
         {
-            "base": "esh",
-            "quote": "weth",
-            "config": {
-                "basePrecision": 0,
-                "pricePrecision": 8,
-                "minAmount": 1
-            }
-        },
-        {
-            "base": "ghost",
-            "quote": "weth",
-            "config": {
-                "basePrecision": 0,
-                "pricePrecision": 8,
-                "minAmount": 0.1
-            }
-        },
-        {
-            "base": "weth",
-            "quote": "dai",
-            "config": {
-                "basePrecision": 3,
-                "pricePrecision": 5,
-                "minAmount": 0.01
-            }
-        },
-        {
             "base": "usdc",
-            "quote": "dai",
-            "config": {
-                "basePrecision": 3,
-                "pricePrecision": 5,
-                "minAmount": 0.1
-            }
+            "quote": "weth"
         },
         {
-            "base": "weth",
-            "quote": "usdc",
-            "config": {
-                "basePrecision": 2,
-                "pricePrecision": 6,
-                "minAmount": 0.01
-            }
+            "base": "usdt",
+            "quote": "weth"
         },
         {
-            "base": "sdex",
-            "quote": "weth",
-            "config": {
-                "basePrecision": 6,
-                "pricePrecision": 8,
-                "minAmount": 0.00001
-            }
-        },
-        {
-            "base": "desh",
-            "quote": "weth",
-            "config": {
-                "basePrecision": 6,
-                "pricePrecision": 8,
-                "minAmount": 0.00001
-            }
-        },
-        {
-            "base": "whackd",
-            "quote": "weth",
-            "config": {
-                "basePrecision": 0,
-                "pricePrecision": 8,
-                "minAmount": 0.1
-            }
-        },
-        {
-            "base": "alex",
-            "quote": "weth",
-            "config": {
-                "basePrecision": 2,
-                "pricePrecision": 8,
-                "minAmount": 0.0001
-            }
-        },
-        {
-            "base": "esh",
-            "quote": "usdc",
-            "config": {
-                "basePrecision": 2,
-                "pricePrecision": 8,
-                "minAmount": 1000
-            }
-        },
-        {
-            "base": "esh",
-            "quote": "dai",
-            "config": {
-                "basePrecision": 2,
-                "pricePrecision": 5,
-                "minAmount": 10
-            }
+            "base": "sdx",
+            "quote": "weth"
         },
         {
             "base": "zrx",
-            "quote": "weth",
-            "config": {
-                "basePrecision": 2,
-                "pricePrecision": 5,
-                "minAmount": 10
-            }
+            "quote": "weth"
         },
         {
-            "base": "bat",
-            "quote": "weth",
-            "config": {
-                "basePrecision": 2,
-                "pricePrecision": 8
-            }
+            "base": "dai",
+            "quote": "weth"
         },
         {
             "base": "mkr",
-            "quote": "weth",
-            "config": {
-                "basePrecision": 2,
-                "pricePrecision": 6
-            }
+            "quote": "weth"
         },
         {
-            "base": "rep",
-            "quote": "weth",
-            "config": {
-                "basePrecision": 2,
-                "pricePrecision": 5
-            }
+            "base": "bat",
+            "quote": "weth"
+        },
+        {
+            "base": "muxe",
+            "quote": "weth"
         },
         {
             "base": "link",
-            "quote": "weth",
-            "config": {
-                "basePrecision": 2,
-                "pricePrecision": 5,
-                "minAmount": 1
-            }
+            "quote": "weth"
+        },
+	{
+            "base": "idrt",
+            "quote": "weth"
         },
         {
-            "base": "weth",
-            "quote": "usdt",
-            "config": {
-                "basePrecision": 2,
-                "pricePrecision": 6
-            }
+            "base": "clo",
+            "quote": "weth"
         },
         {
-            "base": "knc",
-            "quote": "weth",
-            "config": {
-                "basePrecision": 2,
-                "pricePrecision": 5,
-                "minAmount": 1
-            }
+            "base": "clog",
+            "quote": "weth"
+        },
+        {
+            "base": "htx",
+            "quote": "weth"
         },
         {
             "base": "0xbtc",
-            "quote": "weth",
-            "config": {
-                "basePrecision": 2,
-                "pricePrecision": 8,
-                "minAmount": 1
-            }
+            "quote": "weth"
+        },
+        {
+            "base": "dca",
+            "quote": "weth"
+        },
+        {
+            "base": "zrx",
+            "quote": "sdx"
+        },
+        {
+            "base": "dai",
+            "quote": "sdx"
+        },
+        {
+            "base": "mkr",
+            "quote": "sdx"
+        },
+        {
+            "base": "bat",
+            "quote": "sdx"
+        },
+        {
+            "base": "muxe",
+            "quote": "sdx"
+        },
+        {
+            "base": "link",
+            "quote": "sdx"
+        },
+	{
+            "base": "idrt",
+            "quote": "sdx"
+        },
+        {
+            "base": "clo",
+            "quote": "sdx"
+        },
+        {
+            "base": "clog",
+            "quote": "sdx"
+        },
+        {
+            "base": "htx",
+            "quote": "sdx"
+        },
+        {
+            "base": "0xbtc",
+            "quote": "sdx"
+        },
+        {
+            "base": "dca",
+            "quote": "sdx"
+        },
+        {
+            "base": "befx",
+            "quote": "sdx"
+        },
+        {
+            "base": "sdx",
+            "quote": "usdc"
+        },
+        {
+            "base": "zrx",
+            "quote": "usdc"
+        },
+        {
+            "base": "dai",
+            "quote": "usdc"
+        },
+        {
+            "base": "mkr",
+            "quote": "usdc"
+        },
+        {
+            "base": "bat",
+            "quote": "usdc"
+        },
+        {
+            "base": "muxe",
+            "quote": "usdc"
+        },
+        {
+            "base": "link",
+            "quote": "usdc"
+        },
+	{
+            "base": "idrt",
+            "quote": "usdc"
+        },
+        {
+            "base": "0xbtc",
+            "quote": "usdc"
+        },
+        {
+            "base": "sdx",
+            "quote": "usdt"
+        },
+        {
+            "base": "zrx",
+            "quote": "usdt"
+        },
+        {
+            "base": "dai",
+            "quote": "usdt"
+        },
+        {
+            "base": "mkr",
+            "quote": "usdt"
+        },
+        {
+            "base": "bat",
+            "quote": "usdt"
+        },
+        {
+            "base": "muxe",
+            "quote": "usdt"
+        },
+        {
+            "base": "link",
+            "quote": "usdt"
+        },
+        {
+            "base": "0xbtc",
+            "quote": "usdt"
+        },        
+        {
+            "base": "befx",
+            "quote": "usdt"
         }
+
+
     ],
     "marketFilters": [
         {
+            "text": "SDX",
+            "value": "sdx"
+        },
+        {
             "text": "ETH",
             "value": "weth"
-        },
-        {
-            "text": "DAI",
-            "value": "dai"
-        },
-        {
-            "text": "ESH",
-            "value": "esh"
         }
     ]
 }
