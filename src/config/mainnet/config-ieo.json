@@ -1,6 +1,22 @@
 {
     "tokens": [
         {
+            "decimals": 7,
+            "symbol": "sdx",
+            "name": "SwapDex",
+            "primaryColor": "#081e6e",
+            "icon": "assets/icons/sdx.svg",
+            "addresses": {
+                "1": "0x041fdd6637eCfD96af8804278AC12660ac2D12c0"
+            },
+            "id": "swapdex",
+            "c_id": "swapdex",
+            "displayDecimals": 0,
+            "description": "The transparent ecosystem that crypto needs!",
+            "website": "https://www.swapdex.net",
+            "isStableCoin": false
+        },
+        {
             "symbol": "weth",
             "name": "Wrapped Ether",
             "primaryColor": "#3333ff",
